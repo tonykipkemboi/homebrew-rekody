@@ -7,10 +7,10 @@ class Rekody < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tonykipkemboi/rekody/releases/download/v#{version}/rekody-#{version}-macos-aarch64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "90200682285dff9310ce83946b23bc3f2efe418e1cb6cabda301f8225361cc1d"
     else
       url "https://github.com/tonykipkemboi/rekody/releases/download/v#{version}/rekody-#{version}-macos-x86_64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "74b1ecdf5e135ce669338bda22e54003e02d2346f377661ed8526f9a77c3cd83"
     end
   end
 
